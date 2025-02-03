@@ -61,10 +61,10 @@ def main():
             "rest at the end",
             "jobs not finished", 
             "deal was already made",
-            " best algo trader in the world",
+            "best algo trader in the world",
         ]
 
-        # Select a random reminder and print i
+        # Select a random reminder and print it
         random_reminder = random.choice(list_of_reminders)
         print('✨' + random_reminder)
 
@@ -75,8 +75,8 @@ def main():
                 cprint("all tasks are completed", 'white', 'on_green')
                 break 
 
-        # Sleep for 15 seconds before the next iteration
-        time.sleep(15)
+        # Sleep for 30 seconds before the next iteration
+        time.sleep(30)
 
 # Run the main function
 main()
