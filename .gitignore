@@ -1,0 +1,7 @@
+# Ignore config.py
+config.py
+
+# Other files and directories to ignore
+*.pyc
+__pycache__/
+.env
